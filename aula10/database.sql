@@ -1,0 +1,11 @@
+CREATE SCHEMA fatec;
+
+USE fatec;
+
+CREATE TABLE aluno(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(60) NOT NULL,
+	genero VARCHAR(10) 
+);
+
+DROP TABLE aluno;
